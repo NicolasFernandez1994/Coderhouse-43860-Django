@@ -19,6 +19,7 @@ python -m venv .venv
 ```
 
 - Activar el entorno desde VSCode como se indica en las diapositivas.
+## probando los cambios
 
 ## Crear la estructura del proyecto
 
