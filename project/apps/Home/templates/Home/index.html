@@ -2,29 +2,30 @@
 
 {% block BASE_CONTENIDO %}
 
-    {% block INDEX_TITULO  %}     
+    {% block INDEX_TITULO  %}  
+
     {% endblock INDEX_TITULO  %}
 
     {% block INDEX_CONTENIDO %}
         
-    <!-- Header-->
-    <header class="bg-dark py-5">
-        {% include 'Home/02header.html' %}
-    </header>
+        <!-- Header-->
+        <header class="bg-dark py-5">
+            {% include 'Home/02header.html' %}
+        </header>
 
-    <!-- Features section-->
-    <section class="py-5" id="features">
-        {% include 'Home/03productosD.html' %}
-    </section>
+        <!-- Features section-->
+        <section class="py-5" id="features">
+            {% include 'Home/03productosD.html' %}
+        </section>
 
-    <!-- Testimonial section-->
-    <div class="py-5 bg-light">
-        {% include 'Home/04TestimonioCeo.html' %}
-    </div>
+        <!-- Testimonial section-->
+        <div class="py-5 bg-light">
+            {% include 'Home/04TestimonioCeo.html' %}
+        </div>
 
-    <!-- Blog preview section-->
-    {% include 'Home/05nblog1.html' %}
+        <!-- Blog preview section-->
+        {% include 'Home/05nblog1.html' %}
 
     {% endblock INDEX_CONTENIDO %}
 
-{% endblock Base_CONTENIDO %}
+{% endblock BASE_CONTENIDO %}
