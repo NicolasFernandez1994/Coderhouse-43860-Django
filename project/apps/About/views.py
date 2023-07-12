@@ -3,5 +3,5 @@ from django.shortcuts import render
 # Create your views here.
 
 def home(request):
-    contexto = {"app": "Aplicación Producto" }
-    return render(request, "producto/index.html", contexto)
+    contexto = {"app": "About" }
+    return render(request, "about/index.html", contexto)
