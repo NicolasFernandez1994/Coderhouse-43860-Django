@@ -1,8 +1,7 @@
-from datetime import date
+from django.shortcuts import render
 
-from django.http import HttpRequest, HttpResponse
-from django.shortcuts import redirect, render
-from django.urls import is_valid_path
+# Create your views here.
 
 def home(request):
-    return render(request, "About/about.html")
+    contexto = {"app": "Aplicación Producto" }
+    return render(request, "producto/index.html", contexto)
