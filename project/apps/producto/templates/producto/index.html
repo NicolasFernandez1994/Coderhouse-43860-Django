@@ -2,14 +2,11 @@
 {% load static %}
 
 {% block INDEX_TITULO %} 
-    {{ app }} 
 {% endblock INDEX_TITULO %}
 
 {% block INDEX_CONTENIDO %}
-    <a href="{% url 'Home:home' %}">Ir al menú principal</a>
-
     <!DOCTYPE html>
-    <html lang="en">
+    <html lang="es">
         <head>
             <meta charset="utf-8" />
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -25,9 +22,7 @@
         </head>
         <body class="d-flex flex-column">
             <main class="flex-shrink-0">
-                <!-- Navigation-->
-                {% include 'Home/01navbar.html' %}
-            
+               
                 <!-- Pricing section-->
                 <section class="bg-light py-5">
                     <div class="container px-5 my-5">
