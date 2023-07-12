@@ -1,5 +1,5 @@
-1 . crear un entorno virtual
-2 . ingresar al navegador con : Python manage.py runserver
+1 . crear un entorno virtual (venv .venv)
+2 . en project (cd project) ingresar al navegador con : Python manage.py runserver
 3 . ingresar al enlace http://127.0.0.1:8000/ se mostrara una pagina de una distribuidora,
  en cual me basare en el proyecto Speed NPF
 4 . Se puede navegar en las diferentes pantalles de la parte superior donde:
