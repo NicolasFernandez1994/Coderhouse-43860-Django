@@ -1,4 +1,3 @@
-from nturl2path import url2pathname
 from django.shortcuts import render
 
 # Create your views here.
@@ -6,4 +5,4 @@ from django.shortcuts import render
 
 def home(request):
     contexto = {"app": "Nosotros"}
-    return render(request, url2pathname("Nosotros/index.html"), contexto)
+    return render(request, "http://127.0.0.1:8000/Nosotros/index.html", contexto)
