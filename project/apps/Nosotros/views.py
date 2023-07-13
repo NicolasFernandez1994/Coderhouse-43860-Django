@@ -5,4 +5,4 @@ from django.shortcuts import render
 
 def home(request):
     contexto = {"app": "Nosotros"}
-    return render(request, "http://127.0.0.1:8000/Nosotros/index.html", contexto)
+    return render(request, "Nosotros/index.html", contexto)
