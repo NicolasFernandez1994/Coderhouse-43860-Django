@@ -1,4 +1,6 @@
-1 . crear un entorno virtual (venv .venv)
+1 . crear un entorno virtual (venv .venv) seguido de:
+1.1 . pip install -r requirements
+1.2 . pip install djhtml 
 2 . en project (cd project) ingresar al navegador con : Python manage.py runserver
 3 . ingresar al enlace http://127.0.0.1:8000/ se mostrara una pagina de una distribuidora,
  en cual me basare en el proyecto Speed NPF
